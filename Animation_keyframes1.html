@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: mediumaquamarine;
+                animation-name: example;
+                animation-duration: 5s;
+                position: relative;
+               /* animation-delay: -2s;*/
+               animation-iteration-count:infinite;
+            }
+            @keyframes example{
+                0% {background-color: mediumaquamarine; left: 0px; top:0px;}
+                25%{background-color: mediumspringgreen; left:200px; top:0px;}
+                50%{background-color: orangered;left:200px;top: 200px;}
+                75%{background-color: peru; left: 0px; top: 200px;}
+                100%{background-color: crimson; left: 0px; top: 0px;}
+            }
+        </style>
+        <div>This is a normal element</div>
+</html>
